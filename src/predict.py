@@ -19,7 +19,7 @@ if __name__ == "__main__":
     num_tag = len(list(enc_tag.classes_))
 
     sentence = """
-    abhishek is going to india
+    The president also says the government has indications that the coronavirus outbreak is "accelerating a bit" in the country, one of the worst-hit in Europe with close to 200,000 cases and nearly 30,000 deaths, according to Johns Hopkins University.
     """
     tokenized_sentence = config.TOKENIZER.encode(sentence)
 

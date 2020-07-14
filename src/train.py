@@ -70,7 +70,7 @@ if __name__ == "__main__":
         valid_dataset, batch_size=config.VALID_BATCH_SIZE, num_workers=1
     )
 
-    device = torch.device("cuda")
+    device = torch.device("cuda:1")
     model = EntityModel(num_tag=num_tag, num_pos=num_pos)
     model.to(device)
 
